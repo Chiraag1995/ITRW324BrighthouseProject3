@@ -1,0 +1,202 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#back{
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+	opacity: 0.35;
+	background-image: url(regImage.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#heading{
+	font-family: adellove;
+	font-size:  80px;
+	color: #C71585;
+	margin: 0px;
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+}
+
+
+#login{
+	background-color: transparent;
+	color: #C71585;
+	border: 2px solid #C71585;
+	font-family: Vogue;
+	font-size: 30px;
+	font-weight: bold;
+	position: fixed;
+	top: 20px;
+	right: 50px;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+#login:hover{
+	background-color: #C71585;
+	color: #FFC0CB;
+}
+
+#info{
+	color: #C71585;
+	font-family: Vogue;
+	font-size: 30px;
+	font-weight: bold;
+	position: fixed;
+	top: 110px;
+	left: 30%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#lblName{
+	color: #C71585;
+	font-family: Vogue;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	top: 240px;
+	left: 25%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#tbName{
+	color: black;
+	font-family: calibri;
+	font-size: 15px;
+	position: fixed;
+	top: 240px;
+	left: 45%;
+	text-decoration: none;
+}
+
+#lblEmail{
+	color: #C71585;
+	font-family: Vogue;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	top: 280px;
+	left: 25%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#tbEmail{
+	color: black;
+	font-family: calibri;
+	font-size: 15px;
+	position: fixed;
+	top: 280px;
+	left: 45%;
+	text-decoration: none;
+}
+
+#lblPassword1{
+	color: #C71585;
+	font-family: Vogue;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	top: 320px;
+	left: 25%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#pass1{
+	color: black;
+	font-family: calibri;
+	font-size: 15px;
+	position: fixed;
+	top: 320px;
+	left: 45%;
+	text-decoration: none;
+}
+
+#lblPassword2{
+	color: #C71585;
+	font-family: Vogue;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	top: 360px;
+	left: 25%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#pass2{
+	color: black;
+	font-family: calibri;
+	font-size: 15px;
+	position: fixed;
+	top: 360px;
+	left: 45%;
+	text-decoration: none;
+}
+
+#panel{
+	background-color: #FFC0CB;
+	opacity: 0.5;
+	position: fixed;
+	top: 25%;
+	left: 0%;
+	width: 100%;
+	height: 50%;
+}
+
+#btnReg{
+	background-color: transparent;
+	color: #C71585;
+	border: 2px solid #C71585;
+	font-family: Vogue;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	top: 420px;
+	left: 35%;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+#btnReg:hover{
+	background-color: #C71585;
+	color: #FFC0CB;
+}
+
+#btnCancel{
+	background-color: transparent;
+	color: #C71585;
+	border: 2px solid #C71585;
+	font-family: Vogue;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	top: 420px;
+	left: 50%;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+#btnCancel:hover{
+	background-color: #C71585;
+	color: #FFC0CB;
+}
